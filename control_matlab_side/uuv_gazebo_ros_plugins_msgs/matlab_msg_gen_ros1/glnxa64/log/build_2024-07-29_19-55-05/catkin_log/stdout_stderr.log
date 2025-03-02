@@ -1,0 +1,491 @@
+[0/1] Re-running CMake...
+-- Using CATKIN_DEVEL_PREFIX: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2024a/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2024a/toolbox/ros/mlroscpp/custom_messages
+-- Using PYTHON_EXECUTABLE: /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/lib/python3.10/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - uuv_gazebo_ros_plugins_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'uuv_gazebo_ros_plugins_msgs'
+-- ==> add_subdirectory(uuv_gazebo_ros_plugins_msgs)
+CMake Warning at /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: geneus
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: genlisp
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: gennodejs
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:20 (find_package)
+
+
+-- Using these message generators: gencpp;genpy
+-- uuv_gazebo_ros_plugins_msgs: 3 messages, 10 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build
+ninja: no work to do.
+[1/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel:geometry_msgs/Vector3:geometry_msgs/Inertia
+[2/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterState.srv
+[3/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetFloat.srv
+[4/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/msg/FloatStamped.msg std_msgs/Header
+[5/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetFloat.srv
+[6/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterEfficiency.srv
+[7/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg geometry_msgs/Vector3:geometry_msgs/Inertia
+[8/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetListParam.srv
+[9/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterConversionFcn.srv uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn
+[10/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterEfficiency.srv
+[11/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterState.srv
+[12/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/msg/ThrusterConversionFcn.msg
+[13/28] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetUseGlobalCurrentVel.srv
+[14/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_FloatStamped_message.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_FloatStamped_message.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[15/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_SetThrusterEfficiency_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_SetThrusterEfficiency_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[16/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_ThrusterConversionFcn_message.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_ThrusterConversionFcn_message.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[17/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetThrusterState_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_GetThrusterState_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[18/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_UnderwaterObjectModel_message.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_UnderwaterObjectModel_message.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[19/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_GetThrusterConversionFcn_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[20/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetThrusterEfficiency_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_GetThrusterEfficiency_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[21/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_SetThrusterState_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_SetThrusterState_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[22/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_SetFloat_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_SetFloat_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[23/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetFloat_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_GetFloat_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[24/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_SetUseGlobalCurrentVel_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_SetUseGlobalCurrentVel_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[25/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetListParam_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_GetListParam_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[26/28] Building CXX object uuv_gazebo_ros_plugins_msgs/CMakeFiles/uuv_gazebo_ros_plugins_msgs_matlab.dir/src/uuv_gazebo_ros_plugins_msgs_GetModelProperties_service.cpp.o
+In file included from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/src/uuv_gazebo_ros_plugins_msgs_GetModelProperties_service.cpp:3:
+/usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[27/28] Linking CXX shared library /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/libuuv_gazebo_ros_plugins_msgs_matlab.so
+[27/28] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/_setup_util.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/env.sh
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/setup.bash
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/local_setup.bash
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/setup.sh
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/local_setup.sh
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/setup.zsh
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/local_setup.zsh
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/.rosinstall
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/msg/FloatStamped.msg
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/msg/ThrusterConversionFcn.msg
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetFloat.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetListParam.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterConversionFcn.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterEfficiency.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterState.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetFloat.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterEfficiency.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterState.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/srv/SetUseGlobalCurrentVel.srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgs-msg-paths.cmake
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnRequest.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetFloatResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyRequest.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetModelProperties.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetModelPropertiesRequest.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetFloatResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetFloat.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterStateResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterState.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/FloatStamped.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterStateRequest.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetListParamResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterStateResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetListParamRequest.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetListParam.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterState.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetFloatRequest.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyRequest.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterStateRequest.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetFloatRequest.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetModelPropertiesResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnResponse.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetFloat.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelRequest.h
+Listing '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/__init__.py'...
+Listing '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_FloatStamped.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_ThrusterConversionFcn.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_UnderwaterObjectModel.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__init__.py'...
+Listing '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetFloat.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetListParam.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterConversionFcn.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterEfficiency.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterState.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetFloat.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterEfficiency.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterState.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetUseGlobalCurrentVel.py'...
+Compiling '/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__init__.py'...
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_UnderwaterObjectModel.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_ThrusterConversionFcn.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/_FloatStamped.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__/_ThrusterConversionFcn.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__/__init__.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__/_UnderwaterObjectModel.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__pycache__/_FloatStamped.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/msg/__init__.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterConversionFcn.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterEfficiency.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetModelProperties.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetListParam.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterEfficiency.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetFloat.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetThrusterState.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_GetFloat.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetFloat.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_SetThrusterState.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetThrusterEfficiency.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetListParam.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/__init__.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetThrusterConversionFcn.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetThrusterState.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_GetModelProperties.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_SetUseGlobalCurrentVel.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_SetThrusterEfficiency.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__pycache__/_SetFloat.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetThrusterState.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/_SetUseGlobalCurrentVel.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/srv/__init__.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/__pycache__
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/__pycache__/__init__.cpython-310.pyc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/uuv_gazebo_ros_plugins_msgs/__init__.py
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/pkgconfig/uuv_gazebo_ros_plugins_msgs.pc
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgs-msg-extras.cmake
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgsConfig.cmake
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/cmake/uuv_gazebo_ros_plugins_msgsConfig-version.cmake
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/share/uuv_gazebo_ros_plugins_msgs/package.xml
+-- Up-to-date: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include
+-- Up-to-date: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/include/uuv_gazebo_ros_plugins_msgs/visibility_control.h
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/lib/libuuv_gazebo_ros_plugins_msgs_matlab.so
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m/
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getModelPropertiesRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setFloatResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterStateRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/floatStamped.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/thrusterConversionFcn.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterConversionFcnRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getModelPropertiesResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterStateResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setUseGlobalCurrentVelRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterStateRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/underwaterObjectModel.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterStateResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterEfficiencyRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getFloatRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setFloatRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterEfficiencyResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getFloatResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getListParamResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setThrusterEfficiencyResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterConversionFcnResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getThrusterEfficiencyRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/getListParamRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+uuv_gazebo_ros_plugins_msgs/setUseGlobalCurrentVelResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetFloatRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetModelPropertiesRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetFloatRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetListParamResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetListParamRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterStateRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetFloatResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVelRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiencyRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiencyResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/SetThrusterStateResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetModelPropertiesResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterStateResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterStateRequest.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/FloatStamped.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcnResponse.m
+-- Installing: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+uuv_gazebo_ros_plugins_msgs/GetFloatResponse.m
+Base path: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64
+Source space: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src
+Build space: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build
+Devel space: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel
+Install space: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install
+####
+#### Running command: "ninja build.ninja" in "/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build"
+####
+####
+#### Running command: "ninja install install -j16 -l16" in "/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build"
+####

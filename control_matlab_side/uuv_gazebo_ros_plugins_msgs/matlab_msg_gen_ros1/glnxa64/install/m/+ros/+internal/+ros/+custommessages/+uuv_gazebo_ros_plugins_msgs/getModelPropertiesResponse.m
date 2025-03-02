@@ -1,0 +1,47 @@
+function [data, info] = getModelPropertiesResponse
+%GetModelProperties gives an empty data for uuv_gazebo_ros_plugins_msgs/GetModelPropertiesResponse
+% Copyright 2019-2020 The MathWorks, Inc.
+%#codegen
+data = struct();
+data.MessageType = 'uuv_gazebo_ros_plugins_msgs/GetModelPropertiesResponse';
+[data.LinkNames, info.LinkNames] = ros.internal.ros.messages.ros.char('string',NaN);
+[data.Models, info.Models] = ros.internal.ros.custommessages.uuv_gazebo_ros_plugins_msgs.underwaterObjectModel;
+info.Models.MLdataType = 'struct';
+info.Models.MaxLen = NaN;
+info.Models.MinLen = 0;
+data.Models = data.Models([],1);
+info.MessageType = 'uuv_gazebo_ros_plugins_msgs/GetModelPropertiesResponse';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,28);
+info.MatPath{1} = 'link_names';
+info.MatPath{2} = 'models';
+info.MatPath{3} = 'models.added_mass';
+info.MatPath{4} = 'models.linear_damping';
+info.MatPath{5} = 'models.linear_damping_forward_speed';
+info.MatPath{6} = 'models.quadratic_damping';
+info.MatPath{7} = 'models.volume';
+info.MatPath{8} = 'models.bbox_height';
+info.MatPath{9} = 'models.bbox_length';
+info.MatPath{10} = 'models.bbox_width';
+info.MatPath{11} = 'models.fluid_density';
+info.MatPath{12} = 'models.cob';
+info.MatPath{13} = 'models.cob.x';
+info.MatPath{14} = 'models.cob.y';
+info.MatPath{15} = 'models.cob.z';
+info.MatPath{16} = 'models.neutrally_buoyant';
+info.MatPath{17} = 'models.inertia';
+info.MatPath{18} = 'models.inertia.m';
+info.MatPath{19} = 'models.inertia.com';
+info.MatPath{20} = 'models.inertia.com.x';
+info.MatPath{21} = 'models.inertia.com.y';
+info.MatPath{22} = 'models.inertia.com.z';
+info.MatPath{23} = 'models.inertia.ixx';
+info.MatPath{24} = 'models.inertia.ixy';
+info.MatPath{25} = 'models.inertia.ixz';
+info.MatPath{26} = 'models.inertia.iyy';
+info.MatPath{27} = 'models.inertia.iyz';
+info.MatPath{28} = 'models.inertia.izz';

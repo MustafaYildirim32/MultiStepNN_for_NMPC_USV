@@ -1,0 +1,8 @@
+prefix=/home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/install
+
+Name: uuv_gazebo_ros_plugins_msgs
+Description: Description of uuv_gazebo_ros_plugins_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime message_runtime geometry_msgs roscpp std_msgs

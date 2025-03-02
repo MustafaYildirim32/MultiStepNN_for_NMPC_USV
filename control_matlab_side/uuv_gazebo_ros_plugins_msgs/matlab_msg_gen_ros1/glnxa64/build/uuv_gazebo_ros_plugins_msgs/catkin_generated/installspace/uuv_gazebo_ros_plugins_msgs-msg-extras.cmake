@@ -1,0 +1,2 @@
+set(uuv_gazebo_ros_plugins_msgs_MESSAGE_FILES "msg/FloatStamped.msg;msg/ThrusterConversionFcn.msg;msg/UnderwaterObjectModel.msg")
+set(uuv_gazebo_ros_plugins_msgs_SERVICE_FILES "srv/GetFloat.srv;srv/GetListParam.srv;srv/GetModelProperties.srv;srv/GetThrusterConversionFcn.srv;srv/GetThrusterEfficiency.srv;srv/GetThrusterState.srv;srv/SetFloat.srv;srv/SetThrusterEfficiency.srv;srv/SetThrusterState.srv;srv/SetUseGlobalCurrentVel.srv")

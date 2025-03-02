@@ -1,0 +1,112 @@
+-- The C compiler identification is GNU 9.5.0
+-- The CXX compiler identification is GNU 9.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2024a/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2024a/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 (found suitable version "3.10.14", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/lib/python3.10/site-packages/em.py  
+-- Using empy: /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/lib/python3.10/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - uuv_gazebo_ros_plugins_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'uuv_gazebo_ros_plugins_msgs'
+-- ==> add_subdirectory(uuv_gazebo_ros_plugins_msgs)
+CMake Warning at /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: geneus
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: genlisp
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: gennodejs
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  uuv_gazebo_ros_plugins_msgs/CMakeLists.txt:20 (find_package)
+
+
+-- Using these message generators: gencpp;genpy
+-- uuv_gazebo_ros_plugins_msgs: 3 messages, 10 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build
+[1/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetModelProperties.srv geometry_msgs/Inertia:uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel:geometry_msgs/Vector3
+[2/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetListParam.srv
+[3/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterConversionFcn.srv uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn
+[4/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetFloat.srv
+[5/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterState.srv
+[6/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetUseGlobalCurrentVel.srv
+[7/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/msg/FloatStamped.msg std_msgs/Header
+[8/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/msg/UnderwaterObjectModel.msg geometry_msgs/Inertia:geometry_msgs/Vector3
+[9/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/SetThrusterEfficiency.srv
+[10/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterState.srv
+[11/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetThrusterEfficiency.srv
+[12/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/msg/ThrusterConversionFcn.msg
+[13/56] cd /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/uuv_gazebo_ros_plugins_msgs && /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/mustafa-yildirim/.matlab/R2024a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2024a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py uuv_gazebo_ros_plugins_msgs /home/mustafa-yildirim/Documents/Repositories/heron_gazebo/uuv_gazebo_ros_plugins_msgs/matlab_msg_gen_ros1/glnxa64/src/uuv_gazebo_ros_plugins_msgs/srv/GetFloat.srv
+[14/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel.msg
+[15/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn.msg
+[16/56] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/ThrusterConversionFcn
+[17/56] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/FloatStamped
+[18/56] Generating Python from MSG uuv_gazebo_ros_plugins_msgs/UnderwaterObjectModel
+[19/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/FloatStamped.msg
+[20/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency.srv
+[21/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetFloat.srv
+[22/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetListParam
+[23/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn
+[24/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency
+[25/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel.srv
+[26/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterConversionFcn.srv
+[27/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetModelProperties
+[28/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetFloat
+[29/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterEfficiency.srv
+[30/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetThrusterState.srv
+[31/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetThrusterState.srv
+[32/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetListParam.srv
+[33/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/GetThrusterState
+[34/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/GetModelProperties.srv
+[35/56] Generating C++ code from uuv_gazebo_ros_plugins_msgs/SetFloat.srv
+[36/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetThrusterEfficiency
+[37/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetFloat
+[38/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetThrusterState
+[39/56] Generating Python code from SRV uuv_gazebo_ros_plugins_msgs/SetUseGlobalCurrentVel
+[40/56] Generating Python srv __init__.py for uuv_gazebo_ros_plugins_msgs
+[41/56] Generating Python msg __init__.py for uuv_gazebo_ros_plugins_msgs
